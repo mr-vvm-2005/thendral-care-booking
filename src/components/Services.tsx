@@ -14,7 +14,7 @@ const Services = () => {
       description: "Professional whitening treatments for a brighter, more confident smile.",
       image: whiteningImg,
       icon: Sparkles,
-      price: "From ₹3,000"
+      
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Services = () => {
       description: "Pain-free root canal therapy to save your natural teeth.",
       image: rootCanalImg,
       icon: ShieldCheck,
-      price: "From ₹5,000"
+      
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const Services = () => {
       description: "Straighten your teeth with modern orthodontic solutions.",
       image: bracesImg,
       icon: Smile,
-      price: "From ₹25,000"
+      
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const Services = () => {
       description: "Professional cleaning and scaling for optimal oral health.",
       image: cleaningImg,
       icon: Brush,
-      price: "From ₹1,500"
+      
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ const Services = () => {
       description: "Permanent tooth replacement with titanium implants.",
       image: implantsImg,
       icon: Crown,
-      price: "From ₹20,000"
+      
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ const Services = () => {
       description: "Comprehensive dental examination and consultation.",
       image: cleaningImg,
       icon: Stethoscope,
-      price: "From ₹500"
+      
     }
   ];
 
@@ -91,22 +91,22 @@ const Services = () => {
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-start justify-between">
-                  <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-                    {service.title}
-                  </h3>
-                  <span className="text-sm font-semibold text-secondary bg-secondary/10 px-3 py-1 rounded-full">
-                    {service.price}
-                  </span>
-                </div>
+                <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                  {service.title}
+                </h3>
                 
                 <p className="text-luxury">
                   {service.description}
                 </p>
 
-                <button className="w-full btn-outline-luxury mt-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
-                  Book Consultation
-                </button>
+                <a 
+                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20a%20consultation%20for%20{service.title}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full btn-outline-luxury flex items-center justify-center mt-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary text-center"
+                >
+                  Book via WhatsApp
+                </a>
               </div>
             </div>
           ))}
@@ -116,9 +116,14 @@ const Services = () => {
           <p className="text-muted-foreground mb-4">
             Need a custom treatment plan? Our experts are here to help.
           </p>
-          <button className="btn-secondary-luxury">
-            Schedule Consultation
-          </button>
+          <a 
+            href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20schedule%20a%20consultation%20with%20Dr.%20Suresh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary-luxury"
+          >
+            Schedule via WhatsApp
+          </a>
         </div>
       </div>
     </section>

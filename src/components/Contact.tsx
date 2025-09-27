@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -24,12 +24,12 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-primary/10 p-3 rounded-lg flex-shrink-0">
-                    <Phone className="h-6 w-6 text-primary" />
+                    <MessageCircle className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">Phone</h4>
+                    <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
                     <p className="text-luxury">+91 8778038383</p>
-                    <p className="text-sm text-muted-foreground">Available during clinic hours</p>
+                    <p className="text-sm text-muted-foreground">Quick booking and queries</p>
                   </div>
                 </div>
 
@@ -61,16 +61,17 @@ const Contact = () => {
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-card">
-              <h3 className="text-xl font-bold mb-4">Quick Actions</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <button className="btn-luxury">
-                  <Phone className="h-4 w-4 mr-2" />
-                  Call Now
-                </button>
-                <button className="btn-outline-luxury">
+              <h3 className="text-xl font-bold mb-4">Quick Booking</h3>
+              <div className="grid grid-cols-1 gap-4">
+                <a 
+                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh%20at%20Thendral%20Dental%20Care"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-luxury flex items-center justify-center w-full"
+                >
                   <MessageCircle className="h-4 w-4 mr-2" />
-                  WhatsApp
-                </button>
+                  Book via WhatsApp
+                </a>
               </div>
             </div>
           </div>
@@ -153,10 +154,15 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn-luxury w-full">
-                  <Mail className="h-5 w-5 mr-2" />
-                  Send Message
-                </button>
+                <a 
+                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20send%20you%20a%20message%20about%20dental%20services"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-luxury w-full flex items-center justify-center"
+                >
+                  <MessageCircle className="h-5 w-5 mr-2" />
+                  Send via WhatsApp
+                </a>
               </form>
             </div>
           </div>

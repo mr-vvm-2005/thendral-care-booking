@@ -120,15 +120,25 @@ const DoctorProfile = () => {
                 </p>
               </div>
 
-              <button className="btn-secondary-luxury mt-6 w-full">
+              <a 
+                href="https://maps.google.com/?q=X7G2+J5+Shenkottai,+Tamil+Nadu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary-luxury mt-6 w-full flex items-center justify-center"
+              >
                 Get Directions
-              </button>
+              </a>
             </div>
 
-            <button className="btn-luxury w-full">
+            <a 
+              href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-luxury w-full flex items-center justify-center"
+            >
               <Calendar className="h-5 w-5 mr-2" />
               Book Appointment with Dr. Suresh
-            </button>
+            </a>
           </div>
         </div>
       </div>

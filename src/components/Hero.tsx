@@ -38,13 +38,21 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="btn-luxury flex items-center justify-center space-x-2">
+              <a 
+                href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-luxury flex items-center justify-center space-x-2"
+              >
                 <Calendar className="h-5 w-5" />
                 <span>Book Appointment</span>
-              </button>
-              <button className="btn-outline-luxury">
+              </a>
+              <a 
+                href="#services"
+                className="btn-outline-luxury flex items-center justify-center"
+              >
                 View Services
-              </button>
+              </a>
             </div>
 
             {/* Stats */}

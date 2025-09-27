@@ -55,10 +55,15 @@ const Header = () => {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
               Contact
             </a>
-            <button className="btn-luxury">
+            <a 
+              href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-luxury"
+            >
               <span className="hidden xl:inline">Book Appointment</span>
               <span className="xl:hidden">Book</span>
-            </button>
+            </a>
           </div>
         </nav>
       </div>
