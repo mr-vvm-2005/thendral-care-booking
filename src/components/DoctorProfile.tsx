@@ -29,7 +29,7 @@ const DoctorProfile = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Education</h4>
-                  <p className="text-muted-foreground">BDS, MDS in Oral Surgery</p>
+                  <p className="text-muted-foreground">BDS (Bachelor of Dental Surgery)</p>
                 </div>
               </div>
 
@@ -39,7 +39,7 @@ const DoctorProfile = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Experience</h4>
-                  <p className="text-muted-foreground">15+ Years in Dental Practice</p>
+                  <p className="text-muted-foreground">5+ Years in Dental Practice</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const DoctorProfile = () => {
                 Meet <span className="heading-luxury">Dr. Suresh</span>
               </h2>
               <p className="text-xl text-luxury leading-relaxed mb-6">
-                With over 15 years of experience in dental care, Dr. Suresh is committed to providing 
+                With over 5 years of experience in dental care, Dr. Suresh is committed to providing 
                 exceptional dental treatment in a comfortable and caring environment. His expertise 
                 spans across all aspects of modern dentistry.
               </p>
