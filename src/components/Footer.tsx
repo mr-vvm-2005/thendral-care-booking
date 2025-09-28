@@ -107,9 +107,9 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-white font-medium">Mon-Sat: 9:30 AM - 1:00 PM</p>
-                  <p className="text-white font-medium">5:00 PM - 8:00 PM</p>
-                  <p className="text-accent-foreground/80 text-sm">Sunday: Closed</p>
+                  <p className="text-white font-medium">Mon-Sat: 9:30 AM - 1:30 PM</p>
+                  <p className="text-white font-medium">4:30 PM - 8:00 PM</p>
+                  <p className="text-accent-foreground/80 text-sm">Sunday: Only for appointment</p>
                 </div>
               </div>
             </div>

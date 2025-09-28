@@ -15,8 +15,8 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Clock className="h-4 w-4 text-secondary" />
-              <span className="hidden xl:inline">Mon-Sat: 9:30 AM - 1:00 PM, 5:00 PM - 8:00 PM</span>
-              <span className="xl:hidden">Mon-Sat: 9:30-13:00, 17:00-20:00</span>
+              <span className="hidden xl:inline">Mon-Sat: 9:30 AM - 1:30 PM, 4:30 PM - 8:00 PM</span>
+              <span className="xl:hidden">Mon-Sat: 9:30-13:30, 16:30-20:00</span>
             </div>
           </div>
           <div className="flex items-center space-x-2 text-muted-foreground">

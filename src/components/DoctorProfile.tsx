@@ -83,13 +83,13 @@ const DoctorProfile = () => {
                 <div className="flex justify-between items-center py-3 border-b border-border/50">
                   <span className="font-medium text-foreground">Monday - Saturday</span>
                   <div className="text-right">
-                    <div className="text-primary font-semibold">9:30 AM - 1:00 PM</div>
-                    <div className="text-secondary font-semibold">5:00 PM - 8:00 PM</div>
+                    <div className="text-primary font-semibold">9:30 AM - 1:30 PM</div>
+                    <div className="text-secondary font-semibold">4:30 PM - 8:00 PM</div>
                   </div>
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="font-medium text-foreground">Sunday</span>
-                  <span className="text-destructive font-semibold">Closed</span>
+                  <span className="text-primary font-semibold">Only for appointment</span>
                 </div>
               </div>
 

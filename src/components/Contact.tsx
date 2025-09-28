@@ -52,9 +52,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Working Hours</h4>
                     <p className="text-luxury">Monday - Saturday</p>
-                    <p className="text-sm text-secondary">9:30 AM - 1:00 PM</p>
-                    <p className="text-sm text-secondary">5:00 PM - 8:00 PM</p>
-                    <p className="text-sm text-destructive mt-1">Sunday: Closed</p>
+                    <p className="text-sm text-secondary">9:30 AM - 1:30 PM</p>
+                    <p className="text-sm text-secondary">4:30 PM - 8:00 PM</p>
+                    <p className="text-sm text-destructive mt-1">Sunday: Only for appointment</p>
                   </div>
                 </div>
               </div>
