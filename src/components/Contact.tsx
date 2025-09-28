@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Clock, Phone } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -24,12 +24,12 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="bg-primary/10 p-3 rounded-lg flex-shrink-0">
-                    <MessageCircle className="h-6 w-6 text-primary" />
+                    <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
-                    <p className="text-luxury">+91 8778038383</p>
-                    <p className="text-sm text-muted-foreground">Quick booking and queries</p>
+                    <h4 className="font-semibold text-foreground mb-1">Phone</h4>
+                    <p className="text-luxury">+91 7604825665</p>
+                    <p className="text-sm text-muted-foreground">Call for appointments</p>
                   </div>
                 </div>
 
@@ -64,13 +64,18 @@ const Contact = () => {
               <h3 className="text-xl font-bold mb-4">Quick Booking</h3>
               <div className="grid grid-cols-1 gap-4">
                 <a 
-                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh%20at%20Thendral%20Dental%20Care"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+917604825665"
                   className="btn-luxury flex items-center justify-center w-full"
                 >
-                  <MessageCircle className="h-4 w-4 mr-2" />
-                  Book via WhatsApp
+                  <Phone className="h-4 w-4 mr-2" />
+                  Call Now
+                </a>
+                <a 
+                  href="mailto:tsureshapr497@gmail.com?subject=Appointment Request&body=Hi, I would like to book an appointment with Dr. Suresh at Thendral Dental Care."
+                  className="btn-secondary flex items-center justify-center w-full"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  Send Email
                 </a>
               </div>
             </div>
@@ -155,13 +160,11 @@ const Contact = () => {
                 </div>
 
                 <a 
-                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20send%20you%20a%20message%20about%20dental%20services"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:tsureshapr497@gmail.com?subject=Dental Service Inquiry&body=Hi, I would like to inquire about dental services."
                   className="btn-luxury w-full flex items-center justify-center"
                 >
-                  <MessageCircle className="h-5 w-5 mr-2" />
-                  Send via WhatsApp
+                  <Mail className="h-5 w-5 mr-2" />
+                  Send Email
                 </a>
               </form>
             </div>

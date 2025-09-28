@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Star, Award, Users } from 'lucide-react';
+import { Phone, Mail, Star, Award, Users } from 'lucide-react';
 import dentalHero from '@/assets/dental-hero.jpg';
 import thendralLogo from '@/assets/thendral-logo.png';
 
@@ -39,19 +39,18 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
-                href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="tel:+917604825665"
                 className="btn-luxury flex items-center justify-center space-x-2"
               >
-                <Calendar className="h-5 w-5" />
-                <span>Book Appointment</span>
+                <Phone className="h-5 w-5" />
+                <span>Call Now</span>
               </a>
               <a 
-                href="#services"
-                className="btn-outline-luxury flex items-center justify-center"
+                href="mailto:tsureshapr497@gmail.com?subject=Appointment Request&body=Hi, I would like to book an appointment with Dr. Suresh at Thendral Dental Care."
+                className="btn-outline-luxury flex items-center justify-center space-x-2"
               >
-                View Services
+                <Mail className="h-5 w-5" />
+                <span>Send Email</span>
               </a>
             </div>
 

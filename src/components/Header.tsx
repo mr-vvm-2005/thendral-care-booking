@@ -11,7 +11,7 @@ const Header = () => {
           <div className="flex items-center space-x-4 xl:space-x-6">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Phone className="h-4 w-4 text-primary" />
-              <span>+91 8778038383</span>
+              <span>+91 7604825665</span>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Clock className="h-4 w-4 text-secondary" />
@@ -56,13 +56,11 @@ const Header = () => {
               Contact
             </a>
             <a 
-              href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:+917604825665"
               className="btn-luxury"
             >
-              <span className="hidden xl:inline">Book Appointment</span>
-              <span className="xl:hidden">Book</span>
+              <span className="hidden xl:inline">Call Now</span>
+              <span className="xl:hidden">Call</span>
             </a>
           </div>
         </nav>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, Award, Clock, Calendar, Phone, MapPin } from 'lucide-react';
+import { GraduationCap, Award, Clock, Phone, MapPin, Mail } from 'lucide-react';
 
 const DoctorProfile = () => {
   return (
@@ -49,7 +49,7 @@ const DoctorProfile = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Direct Contact</h4>
-                  <p className="text-muted-foreground">+91 8778038383</p>
+                  <p className="text-muted-foreground">+91 7604825665</p>
                 </div>
               </div>
             </div>
@@ -130,15 +130,22 @@ const DoctorProfile = () => {
               </a>
             </div>
 
-            <a 
-              href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Suresh"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-luxury w-full flex items-center justify-center"
-            >
-              <Calendar className="h-5 w-5 mr-2" />
-              Book Appointment with Dr. Suresh
-            </a>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a 
+                href="tel:+917604825665"
+                className="btn-luxury flex items-center justify-center"
+              >
+                <Phone className="h-5 w-5 mr-2" />
+                Call Now
+              </a>
+              <a 
+                href="mailto:tsureshapr497@gmail.com?subject=Appointment Request&body=Hi, I would like to book an appointment with Dr. Suresh at Thendral Dental Care."
+                className="btn-secondary flex items-center justify-center"
+              >
+                <Mail className="h-5 w-5 mr-2" />
+                Send Email
+              </a>
+            </div>
           </div>
         </div>
       </div>
