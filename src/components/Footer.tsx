@@ -109,7 +109,7 @@ const Footer = () => {
                 <div>
                   <p className="text-white font-medium">Mon-Sat: 9:30 AM - 1:30 PM</p>
                   <p className="text-white font-medium">4:30 PM - 8:00 PM</p>
-                  <p className="text-accent-foreground/80 text-sm">Sunday: Only for appointment</p>
+                  <p className="text-accent-foreground/80 text-sm">Sunday: Available only for appointments</p>
                 </div>
               </div>
             </div>

@@ -89,7 +89,7 @@ const DoctorProfile = () => {
                 </div>
                 <div className="flex justify-between items-center py-3">
                   <span className="font-medium text-foreground">Sunday</span>
-                  <span className="text-primary font-semibold">Only for appointment</span>
+                  <span className="text-primary font-semibold">Available only for appointments</span>
                 </div>
               </div>
 

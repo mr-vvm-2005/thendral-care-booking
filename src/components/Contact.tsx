@@ -54,7 +54,7 @@ const Contact = () => {
                     <p className="text-luxury">Monday - Saturday</p>
                     <p className="text-sm text-secondary">9:30 AM - 1:30 PM</p>
                     <p className="text-sm text-secondary">4:30 PM - 8:00 PM</p>
-                    <p className="text-sm text-destructive mt-1">Sunday: Only for appointment</p>
+                    <p className="text-sm text-primary mt-1">Sunday: Available only for appointments</p>
                   </div>
                 </div>
               </div>
