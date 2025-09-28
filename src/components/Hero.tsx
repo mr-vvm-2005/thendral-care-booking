@@ -60,7 +60,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center lg:justify-start w-10 h-10 sm:w-12 sm:h-12 bg-primary/10 rounded-full mx-auto lg:mx-0 mb-2">
                   <Users className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                 </div>
-                <div className="text-xl sm:text-2xl font-bold text-foreground">500+</div>
+                <div className="text-xl sm:text-2xl font-bold text-foreground">10K+</div>
                 <div className="text-xs sm:text-sm text-muted-foreground">Happy Patients</div>
               </div>
               <div className="text-center lg:text-left">
