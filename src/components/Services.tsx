@@ -100,12 +100,10 @@ const Services = () => {
                 </p>
 
                 <a 
-                  href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20book%20a%20consultation%20for%20{service.title}"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+917604825665"
                   className="w-full btn-outline-luxury flex items-center justify-center mt-6 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary text-center"
                 >
-                  Book via WhatsApp
+                  Call to Book
                 </a>
               </div>
             </div>
@@ -117,12 +115,10 @@ const Services = () => {
             Need a custom treatment plan? Our experts are here to help.
           </p>
           <a 
-            href="https://wa.me/+918778038383?text=Hi,%20I%20would%20like%20to%20schedule%20a%20consultation%20with%20Dr.%20Suresh"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:tsureshapr497@gmail.com?subject=Consultation Request&body=Hi, I would like to schedule a consultation with Dr. Suresh at Thendral Dental Care."
             className="btn-secondary-luxury"
           >
-            Schedule via WhatsApp
+            Schedule via Email
           </a>
         </div>
       </div>
