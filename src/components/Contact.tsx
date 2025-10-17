@@ -175,16 +175,28 @@ const Contact = () => {
         <div className="mt-16 animate-slide-up">
           <div className="bg-white rounded-2xl p-8 shadow-card">
             <h3 className="text-2xl font-bold mb-6 text-center">Find Us on Map</h3>
-            <div className="h-96 bg-muted rounded-xl flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
-                <p className="text-muted-foreground">
-                  Google Maps integration would go here
-                </p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  X7G2+J5 Shenkottai, Tamil Nadu
-                </p>
-              </div>
+            <div className="h-96 rounded-xl overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.5877458916864!2d77.30054931478!3d8.976162993574892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b042f8e6d8e8e8f%3A0x8e8e8e8e8e8e8e8e!2sThendral%20Dental%20Care!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Thendral Dental Care Location"
+              />
+            </div>
+            <div className="mt-4 text-center">
+              <a 
+                href="https://maps.app.goo.gl/8v8sKDiRTSd51t9r9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-primary hover:text-primary/80 transition-colors font-medium"
+              >
+                <MapPin className="h-4 w-4 mr-2" />
+                Open in Google Maps
+              </a>
             </div>
           </div>
         </div>

@@ -27,16 +27,19 @@ const Footer = () => {
               and personalized treatment plans for every patient.
             </p>
             <div className="flex space-x-4">
-              <div className="bg-primary/20 p-2 rounded-lg hover:bg-primary/30 transition-colors cursor-pointer">
-                <Facebook className="h-5 w-5 text-white" />
-              </div>
-              <div className="bg-primary/20 p-2 rounded-lg hover:bg-primary/30 transition-colors cursor-pointer">
+              <a 
+                href="https://www.instagram.com/thendral_dental_care?utm_source=qr&igsh=MWkwYjhvaDg5OGY1OQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary/20 p-2 rounded-lg hover:bg-primary/30 transition-colors"
+                aria-label="Follow us on Instagram"
+              >
                 <Instagram className="h-5 w-5 text-white" />
-              </div>
-              <div className="bg-primary/20 p-2 rounded-lg hover:bg-primary/30 transition-colors cursor-pointer">
-                <Twitter className="h-5 w-5 text-white" />
-              </div>
+              </a>
             </div>
+            <p className="text-accent-foreground/90 text-sm font-medium mt-2">
+              Follow us on Instagram for updates and dental tips!
+            </p>
           </div>
 
           {/* Quick Links */}
